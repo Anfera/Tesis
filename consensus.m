@@ -1,6 +1,8 @@
 %% Consensus algorithm
 % Va a ser util mas adelante...creo...
 % De nuevo supongamos integradores por simplicidad
+clear all
+clc
 
 dt = 0.01;
 
