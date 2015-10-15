@@ -22,8 +22,8 @@ J{N} = 0;
 for k = N-1:-1:1    
 
     % Feasible region
-    constraints = [-5 <= x{k}     <= 5,
-                   -5 <= x{k+1}   <= 5];
+    constraints = [-20 <= x{k}     <= 20,
+                   -20 <= x{k+1}   <= 20];
 
     % Dynamics
     constraints = [constraints, x{k+1} == A*x{k}+B*u{k}];
@@ -40,10 +40,10 @@ end
 
 agentes = zeros(100,400); %500 agentes en 100 intervalos de tiempo
 dist = zeros(100,400);
-dist(1:10,150) = 1;
+dist(1:50,150) = 1;
 
 agentes(:,1) = random('norm',1,0.5,100,1); %Distribución inicial
-tic
+
 for i = 1:400 %tiempo
     for j = 1:100 %agentes
         assign(x{1},[agentes(j,i); mean(agentes(:,i))]);
@@ -52,14 +52,5 @@ for i = 1:400 %tiempo
     end
     [i,400]
 end
-toc
-plot(agentes')
 
-% o = 0;
-% 
-% for i = 1:30
-%     assign(x{1},[o(i);1])
-%     o(i+1) = A(1,1)*o(i) + B(1,1)*value(uopt{1});
-% end
-% 
-% plot(o)
+plot(agentes')

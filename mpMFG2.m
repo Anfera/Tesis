@@ -60,8 +60,7 @@ agentes5(:,1) = random('norm',6,0.5,100,1);
 p = [agentes1(:,1) agentes2(:,1) agentes3(:,1) agentes4(:,1) agentes5(:,1)];
 p = mean(p)';
 
-tic
-for k = 1:1000 %tiempo
+for k = 1:400 %tiempo
     for i = 1:100 %agentes
         p(:,k+1) = p(:,k) - 0.01*Q*p(:,k);
         
@@ -77,6 +76,7 @@ for k = 1:1000 %tiempo
     end
     [k,400]
 end
+
 plot(agentes1')
 hold on
 plot(agentes2')
@@ -87,4 +87,3 @@ plot(agentes4')
 hold on
 plot(agentes5')
 hold on
-toc
