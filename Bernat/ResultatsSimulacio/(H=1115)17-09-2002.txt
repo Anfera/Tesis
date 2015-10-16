@@ -1,0 +1,8 @@
+Episodi: 17-09-2002
+
+ H = 1115
+
+136)	P-222     	P-VS183   	5.665	(MOUSE 10.536	Simulació 16.201)	 H = 36
+138)	P-VS183   	P-VS77    	6.023	(MOUSE 9.934	Simulació 15.958)	 H = 36
+139)	P-VS77    	P-VS22    	6.771	(MOUSE 24.070	Simulació 30.841)	 H = 73
+xxx)	GATE-CSO  	P-CSO           8.890	(MOUSE 0.701	Simulació 9.592)	 H = 50

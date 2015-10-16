@@ -5,7 +5,7 @@ yalmip('clear')
 clear all
 % Model data
 A = [1 0; 0 1];
-B = [0.01; 0];
+B = [-0.01; 0];
 nx = size(A,1); % Number of states
 nu = size(B,2); % Number of inputs
 Q = [1 -1;-1 1];
@@ -40,7 +40,7 @@ end
 
 agentes = zeros(100,400); %500 agentes en 100 intervalos de tiempo
 dist = zeros(100,400);
-dist(1:50,150) = 1;
+dist(1:50,150) = 0;
 
 agentes(:,1) = random('norm',1,0.5,100,1); %Distribución inicial
 

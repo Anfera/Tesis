@@ -1,0 +1,8 @@
+Episodi: 15-08-2006
+
+ H = 1021
+
+ 96)	P-VS221   	P-VS213   	5.228	(MOUSE 25.523	Simulació 20.295)	 H = 145
+116)	P-VS213   	P-VS182   	6.072	(MOUSE 17.589	Simulació 23.661)	 H = 176
+139)	P-VS77    	P-VS22    	8.970	(MOUSE 16.894	Simulació 25.863)	 H = 183
+xxx)	GATE-CSO  	P-CSO           7.766	(MOUSE 19.704	Simulació 27.470)	 H = 192

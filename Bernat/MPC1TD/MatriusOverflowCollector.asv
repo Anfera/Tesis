@@ -1,0 +1,27 @@
+epsilon = 1e-10;
+
+% L'entrada a l'últim dipòsit és Qc(N-1,:)
+PqN = zeros(1,N-1);
+PqN(N-1) = 1;
+
+Pg7 = zeros(1,ng);
+Pg7(7) = 1;
+
+mfc = -gmax(7) - vfcmax/dt;
+Mfc = qmax(139);
+
+Efc  = [ 0 0 1 -1 1 -1 ]';
+
+Efcv = 1/dt*[ -1 1 0 0 -1 1 ]';
+
+Efcq = [ -1 1 0 0 -1 1 ]'*PqN;
+
+Efcg = [ 1 -1 0 0 1 -1 ]'*Pg7;
+
+Efcd = [ -mfc -Mfc-epsilon -Mfc mfc -mfc Mfc ]';
+
+Efcc = [ vfcmax/dt+mfc epsilon-vfcmax/dt 0 0 vfcmax/dt+mfc -Mfc-vfcmax/dt ]';
+
+
+
+

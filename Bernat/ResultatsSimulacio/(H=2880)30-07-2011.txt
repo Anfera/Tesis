@@ -1,0 +1,14 @@
+Episodi: 30-07-2011
+
+ H = 2880
+
+ 96)	P-VS221   	P-VS213   	5.130	(MOUSE 30.384	Simulació 25.254)	 H = 41
+116)	P-VS213   	P-VS182   	6.932	(MOUSE 14.549	Simulació 21.480)	 H = 92
+124)	P-VS182   	P-VS173   	5.932	(MOUSE 17.027	Simulació 22.959)	 H = 92
+128)	P-VS173   	P-VS175   	5.701	(MOUSE 7.565	Simulació 13.267)	 H = 38
+132)	P-VS175   	P-PM1     	6.199	(MOUSE 0.353	Simulació 6.552)	 H = 39
+136)	P-222     	P-VS183   	5.051	(MOUSE 14.989	Simulació 20.040)	 H = 38
+137)	P-PM1     	P-VS172   	5.492	(MOUSE 10.369	Simulació 15.861)	 H = 39
+138)	P-VS183   	P-VS77    	5.815	(MOUSE 14.402	Simulació 20.217)	 H = 38
+139)	P-VS77    	P-VS22    	9.247	(MOUSE 18.697	Simulació 27.945)	 H = 98
+xxx)	GATE-CSO  	P-CSO           8.786	(MOUSE 27.341	Simulació 18.555)	 H = 55
